@@ -142,5 +142,11 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 - Real-time market monitoring
 
 
+  ## 📸 Screenshots
+
+![OtcPriceSimulator Screenshot](https://github.com/btorressz/OtcPriceSimulator/blob/main/OtcPriceSimulator1.jpg?raw=true)
+
+
+
 
 
