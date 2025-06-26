@@ -151,6 +151,10 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 ![OtcPriceSimulator Screenshot](https://github.com/btorressz/OtcPriceSimulator/blob/main/OtcPriceSimulator3.jpg?raw=true)
 
 
+## 🧾📜 LICENSE - MIT LICENSE
+- This Project is under the **MIT LICENSE**
+
+
 
 
 
