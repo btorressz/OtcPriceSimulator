@@ -101,5 +101,46 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 - Adjustable through the sidebar interface
 - Background thread management for optimal performance
 
+  ## Data Storage
+
+### CSV Logging
+- **Matches**: `otc_matches.csv` - Completed trades with spread analysis
+- **Prices**: `jupiter_prices.csv` - Historical price data with timestamps
+- **Thread-safe**: Concurrent logging without data corruption
+
+### Data Export
+- Filter by date ranges
+- Export for external analysis
+- Statistics and performance metrics
+
+## Performance Features
+
+### Optimization
+- Pre-filtering for arbitrage scanning
+- Efficient data validation
+- Minimal API calls through intelligent caching
+- Background processing for UI responsiveness
+
+### Error Handling
+- Graceful API failure recovery
+- Data validation preventing infinite chart extents
+- User-friendly error messages
+- Automatic retry mechanisms
+
+## Advanced Features
+
+### Smart Trading Assistant
+- Market sentiment analysis
+- Optimal pricing suggestions
+- Risk-adjusted position sizing
+- Historical performance insights
+
+### Arbitrage Scanner
+- Multi-factor opportunity scoring
+- Price impact consideration
+- Detailed profitability analysis
+- Real-time market monitoring
+
+
 
 
