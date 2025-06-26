@@ -61,3 +61,23 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 - Access RSI, volatility, and momentum metrics
 - View moving averages and trend analysis
 - Get AI-powered trading suggestions
+
+  
+## Architecture
+
+### Core Components
+- **`app.py`**: Main Streamlit interface with real-time updates
+- **`jupiter_api.py`**: Jupiter DEX API client with rate limiting
+- **`otc_pool.py`**: Order matching and pool management
+- **`csv_logger.py`**: Data persistence and logging system
+- **`price_monitor.py`**: Background price monitoring service
+- **`technical_indicators.py`**: Advanced technical analysis
+- **`analytics_engine.py`**: Market intelligence and insights
+
+### Data Flow
+1. Background service polls Jupiter API at configurable intervals
+2. Users create offers through the web interface
+3. Automatic matching of compatible orders
+4. All activity logged to CSV files for analysis
+5. Real-time updates displayed in the interface
+
