@@ -33,3 +33,31 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 - **Optimal Sizing**: Volatility-based position sizing recommendations
 - **Data Export**: CSV logging for external analysis
 
+
+## How to Use
+
+### 1. Create Trading Offers
+- Navigate to the "Create New Offer" section
+- Choose BUY or SELL type
+- Set SOL amount and price per SOL
+- Submit to add to the active pool
+
+### 2. Monitor Market Data
+- View real-time SOL and USDC prices
+- Track Jupiter DEX quotes and price updates
+- Observe spread differences between OTC and market prices
+
+### 3. Analyze Price Impact
+- Use the "Price Impact Analysis" tab
+- Select multiple SOL amounts to analyze
+- View interactive charts showing optimal order sizes
+
+### 4. Scan for Arbitrage
+- Click "Scan Arbitrage Opportunities"
+- Review detailed opportunity breakdowns
+- Analyze gross spreads, price impacts, and net profitability
+
+### 5. Review Technical Indicators
+- Access RSI, volatility, and momentum metrics
+- View moving averages and trend analysis
+- Get AI-powered trading suggestions
