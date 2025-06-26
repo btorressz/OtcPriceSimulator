@@ -95,4 +95,11 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 - **Features**: Current prices, market cap, 24h volume
 - **Backup**: Secondary price source for reliability
 
+  
+### Monitoring Settings
+- Default polling interval: 15 seconds
+- Adjustable through the sidebar interface
+- Background thread management for optimal performance
+
+
 
