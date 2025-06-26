@@ -81,3 +81,18 @@ This Streamlit-powered web application simulates a private trading pool for SOL/
 4. All activity logged to CSV files for analysis
 5. Real-time updates displayed in the interface
 
+   
+## API Integration
+
+### Jupiter DEX API
+- **Endpoint**: `https://quote-api.jup.ag/v6`
+- **Features**: Real-time quotes, route analysis, price impact calculation
+- **Rate Limiting**: Configurable polling intervals
+- **Fallback**: Graceful handling of API unavailability
+
+### CoinGecko API
+- **Purpose**: Live SOL and USDC market data
+- **Features**: Current prices, market cap, 24h volume
+- **Backup**: Secondary price source for reliability
+
+
